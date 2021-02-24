@@ -1,0 +1,30 @@
+{
+	"beautify.language": {
+		"js": {
+			"type": [
+				"javascript",
+				"json"
+			],
+			"filename": [
+				".jshintrc",
+				".jsbeautify"
+			]
+		},
+		"css": [
+			"css",
+			"scss",
+			"less"
+		],
+		"html": [
+			"htm",
+			"html"
+		]
+	},
+	"todoIgnore": [
+		"**/build/**",
+		"**/node_modules/**",
+		"**/js/lib/**"
+  ],
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false
+}

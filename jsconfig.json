@@ -1,0 +1,15 @@
+{
+	"include": [
+		"view/**/*",
+		"www/static/js/app.js"
+	],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"view/*": [
+				"view/*"
+			]
+		},
+		"experimentalDecorators": true
+	}
+}
