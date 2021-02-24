@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Home from './pages/home';
 import List from './pages/list';
 
-function App() {
+function App(props) {
   return (
     <Switch>
       <Redirect exact from="/" to="/home" />
