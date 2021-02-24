@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run clean && node development.js",
     "test": "THINK_UNIT_TEST=1 nyc ava test/ && nyc report --reporter=html",
+    "precommit": "lint-staged",
     "clean": "rimraf app/ && rimraf www/",
     "compile": "babel src/ --out-dir app/",
     "lint": "eslint src/",
@@ -81,5 +82,16 @@
     "template": "/Users/liudonghui/.config/yarn/global/node_modules/think-cli/default_template",
     "clone": false,
     "isMultiModule": false
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js, jsx}": [
+      "eslint --cache --fix",
+      "git add"
+    ]
   }
 }

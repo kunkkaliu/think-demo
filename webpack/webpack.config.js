@@ -13,7 +13,7 @@ module.exports = {
   devtool: 'inline-source-map',
   target: 'web',
   entry: {
-    main: resolve('view/index.js'),
+    main: resolve('view/index.jsx'),
   },
   output: {
     path: resolve('www'),

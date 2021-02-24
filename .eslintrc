@@ -18,7 +18,9 @@
   "extends": ["airbnb-base", "plugin:react/recommended"],
   "rules": {
     "linebreak-style": "off", // 换行符
-    "import/no-extraneous-dependencies": "off"
+    "import/no-extraneous-dependencies": "off",
+		"import/extensions": "off",
+		"import/no-unresolved": "off"
   },
   "globals": {
     "think": false
