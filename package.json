@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "kunkkaliu <zudapang@qq.com>",
   "scripts": {
+		"postinstall": "husky install",
     "start": "npm run clean && node development.js",
     "test": "THINK_UNIT_TEST=1 nyc ava test/ && nyc report --reporter=html",
     "clean": "rimraf app/ && rimraf www/",
@@ -84,8 +85,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint --cache --fix",
-      "git add"
+      "eslint --cache"
     ]
   }
 }
