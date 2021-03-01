@@ -1,7 +1,6 @@
 {
 	"include": [
-		"view/**/*",
-		"www/static/js/app.js"
+		"view/**/*"
 	],
 	"compilerOptions": {
 		"baseUrl": ".",

@@ -27,6 +27,7 @@ node_modules/
 .idea
 
 # output
+www/
 output/
 output.tar.gz
 

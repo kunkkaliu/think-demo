@@ -4,13 +4,13 @@ import Home from './pages/home';
 import List from './pages/list';
 
 function App() {
-  return (
-    <Switch>
-      <Redirect exact from="/" to="/home" />
-      <Route exact path="/home" component={Home} />
-      <Route exact path="/list" component={List} />
-    </Switch>
-  );
+	return (
+		<Switch>
+			<Redirect exact from="/" to="/home" />
+			<Route exact path="/home" component={Home} />
+			<Route exact path="/list" component={List} />
+		</Switch>
+	);
 }
 
 export default App;

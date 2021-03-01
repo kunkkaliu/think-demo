@@ -17,10 +17,13 @@
   },
   "extends": ["airbnb-base", "plugin:react/recommended"],
   "rules": {
-    "linebreak-style": "off", // 换行符
+    "linebreak-style": "off",
+		"indent": ["error", "tab"],
+		"import/no-dynamic-require": "off",
     "import/no-extraneous-dependencies": "off",
 		"import/extensions": "off",
-		"import/no-unresolved": "off"
+		"import/no-unresolved": "off",
+		"no-tabs": "off"
   },
   "globals": {
     "think": false
