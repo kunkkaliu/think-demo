@@ -1,14 +1,12 @@
 {
-	"include": [
-		"view/**/*"
-	],
+	"include": ["view/**/*"],
+	"exclude": ["node_modules", "dist"],
 	"compilerOptions": {
-		"baseUrl": ".",
+		"baseUrl": "./",
 		"paths": {
-			"view/*": [
-				"view/*"
-			]
+			"@view/*": ["view/*"],
 		},
+		"jsx": "preserve",
 		"experimentalDecorators": true
 	}
 }

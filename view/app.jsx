@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Home from './pages/home';
-import List from './pages/list';
+import Home from '@view/pages/home';
+import List from '@view/pages/list';
 
 function App() {
 	return (

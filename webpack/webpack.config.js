@@ -45,7 +45,7 @@ module.exports = {
 	resolve: {
 		extensions: ['*', '.js', '.jsx'],
 		alias: {
-			view: resolve('view'),
+			'@view': resolve('view'),
 		},
 	},
 	module: {
