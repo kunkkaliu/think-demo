@@ -25,6 +25,7 @@ node_modules/
 
 # IDE config
 .idea
+.DS_Store
 
 # output
 www/
